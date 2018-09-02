@@ -1,4 +1,40 @@
-h1, h3 {
-    display: flex;
-    justify-content: flex-start;
+.title {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    color: #2D2939;
 }
+
+.title h1 {
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline::after {
+    content: '';
+    border-bottom: 3px solid #EBE8FA;
+    width: 25%;
+    margin: 3rem auto;
+}
+
+.header {
+    margin-bottom: 2.5vh;
+  }
+
+.img-wrapper {
+    display: flex;
+    flex-flow: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.img-wrapper img {
+    margin: 2%;
+}
+
+
