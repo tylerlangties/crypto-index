@@ -15,9 +15,9 @@
 
 .headline::after {
     content: '';
-    border-bottom: 3px solid #EBE8FA;
+    border-bottom: 3px solid rgba(139, 133, 193, 1);
     width: 25%;
-    margin: 3rem auto;
+    margin: 2rem auto;
 }
 
 .header {
