@@ -22,7 +22,7 @@ export default class App extends Component {
     var ts = Math.round((new Date()).getTime() / 1000) - 2678400;
     console.log(ts)
     
-    const api_call_bpi = await fetch(`https://api.coindesk.com/v1/bpi/historical/close.json?currency=${currency}`)
+    const api_call_bpi = await fetch(`http://api.coindesk.com/v1/bpi/historical/close.json?currency=${currency}`)
     const data = await api_call_bpi.json();
 
     const api_call_eth = await fetch(`https://poloniex.com/public?command=returnChartData&currencyPair=USDT_ETH&start=${ts}&end=9999999999&period=14400`)
