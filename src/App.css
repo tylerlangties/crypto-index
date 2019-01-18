@@ -1,6 +1,5 @@
 body {
-  
-  background: #B8D4E3;
+  background: #b8d4e3;
 }
 
 .App {
@@ -11,7 +10,7 @@ body {
   margin-bottom: 2vw;
   max-width: 1350px;
   padding: 0 5rem;
-  background: #B8D4E3;
+  background: #b8d4e3;
   border-radius: 3px;
 }
 
@@ -24,13 +23,13 @@ body {
   height: 100%;
   padding: 0 5rem 2rem;
   position: relative;
-  background-image: linear-gradient(#EBE8FA, #B8D4E3);
+  background-image: linear-gradient(#ebe8fa, #b8d4e3);
   border-radius: 5px;
   border: none;
 }
 
 .chart-container h3 {
-  color: #2D2939;
+  color: #2d2939;
   font-size: 1.5rem;
   margin: 1vw 0 2vw;
 }
@@ -45,16 +44,15 @@ body {
 }
 
 .loading-land::after {
-  content: '';
-  border: 2px solid #EBE8FA;
+  content: "";
+  border: 2px solid #ebe8fa;
   width: 50%;
 }
 
 .loading-land p {
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
   font-weight: bold;
   font-size: 4rem;
-  color: #EBE8FA;
+  color: #ebe8fa;
   margin: 10px;
 }
-
